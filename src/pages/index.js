@@ -139,7 +139,7 @@ export default function Home() {
       <VisionMissionSection/>
       <ConnectSection/>
       <TestimonialCarousel/>
-      <Recognitions/>
+    
       <Footer/>
     </header>
   );
