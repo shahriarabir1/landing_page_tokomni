@@ -9,7 +9,7 @@ const ConnectSection = () => {
           <div className="flex flex-col items-center py-4 bg-gray-50 w-16 ">
             {/* Highlighted Section */}
             <div className="relative flex flex-col items-center">
-              <div className="bg-red-500 w-12 pt-8 rounded-t-lg flex flex-col justify-end items-end ">
+              <div className="bg-gradient-to-r from-teal-500 via-indigo-500 to-blue-500 w-12 pt-8 rounded-t-lg flex flex-col justify-end items-end ">
                 <div className="w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center -mb-6">
                   <svg
                     className="h-6 w-6 text-gray-500"
@@ -150,10 +150,10 @@ const ConnectSection = () => {
           {/* Right Content */}
           <div className="md:w-1/2">
             <Image
-              src="https://www.suridata.ai/wp-content/themes/suridata-theme/assets/images/home/screenshot-1.png"
+              src="/pc.png"
               alt="Laptop Connect"
-              width={600}
-              height={400}
+              width={550}
+              height={350}
               className="object-contain"
             />
           </div>
@@ -164,7 +164,7 @@ const ConnectSection = () => {
           <div className="flex flex-col items-center py-4 bg-gray-50 w-16 ">
             {/* Highlighted Section */}
             <div className="relative flex flex-col items-center">
-              <div className="bg-red-500 w-12 pt-8 rounded-t-lg flex justify-end items-end flex-col gap-3">
+              <div className="bg-gradient-to-r from-teal-500 via-indigo-500 to-blue-500 w-12 pt-8 rounded-t-lg flex justify-end items-end flex-col gap-3">
                 <div className="w-12 h-12  flex items-center justify-center ">
                   <svg
                     className="h-6 w-6 text-gray-500"
@@ -301,11 +301,11 @@ const ConnectSection = () => {
           </div>
           {/* Right Content */}
           <div className="md:w-1/2">
-            <Image
-              src="https://www.suridata.ai/wp-content/themes/suridata-theme/assets/images/home/screenshot-2.png"
-              alt="Laptop Risks"
-              width={600}
-              height={400}
+          <Image
+              src="/pc.png"
+              alt="Laptop Connect"
+              width={550}
+              height={350}
               className="object-contain"
             />
           </div>
@@ -315,7 +315,7 @@ const ConnectSection = () => {
           <div className="flex flex-col items-center py-4 bg-gray-50 w-16 ">
             {/* Highlighted Section */}
             <div className="relative flex flex-col items-center justify-center">
-              <div className="bg-red-500 w-12 pt-8 rounded-t-lg flex justify-end items-center flex-col gap-3">
+              <div className="bg-gradient-to-r from-teal-500 via-indigo-500 to-blue-500 w-12 pt-8 rounded-t-lg flex justify-end items-center flex-col gap-3">
                 <div className="w-12 h-12 flex items-center justify-center ">
                   <svg
                     className="h-6 w-6 text-gray-500"
@@ -464,7 +464,7 @@ Suridata studies your SaaS environment to become your SaaS expert, saving precio
           <div className="flex flex-col items-center py-4 bg-gray-50 w-16 ">
             {/* Highlighted Section */}
             <div className="relative flex flex-col items-center justify-center">
-              <div className="bg-red-500 w-12 pt-8 rounded-t-lg flex justify-end items-center flex-col gap-3">
+              <div className="bg-gradient-to-r from-teal-500 via-indigo-500 to-blue-500 w-12 pt-8 rounded-t-lg flex justify-end items-center flex-col gap-3">
                 <div className="w-12 h-12 flex items-center justify-center ">
                   <svg
                     className="h-6 w-6 text-gray-500"
@@ -611,7 +611,7 @@ Suridata studies your SaaS environment to become your SaaS expert, saving precio
           <div className="flex flex-col items-center py-4 bg-gray-50 w-16 ">
             {/* Highlighted Section */}
             <div className="relative flex flex-col items-center justify-center">
-              <div className="bg-red-500 w-12 pt-8 rounded-t-lg flex justify-end items-center flex-col gap-3">
+              <div className="bg-gradient-to-r from-teal-500 via-indigo-500 to-blue-500 w-12 pt-8 rounded-t-lg flex justify-end items-center flex-col gap-3">
                 <div className="w-12 h-12 flex items-center justify-center ">
                   <svg
                     className="h-6 w-6 text-gray-500"

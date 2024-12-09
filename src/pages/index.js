@@ -2,6 +2,10 @@ import Image from "next/image";
 import AverageRisksSection from "./components/AverageRisksSection";
 import VisionMissionSection from "./components/VisionMissionSection";
 import ConnectSection from "./components/ConnectSection";
+import TestimonialSlider from "./components/TestimonialSlider";
+import TestimonialCarousel from "./components/TestimonialCarousel";
+import Recognitions from "./components/Recognitions";
+import Footer from "./components/Footer";
 export default function Home() {
   return (
     <header className="bg-gray-50">
@@ -134,6 +138,9 @@ export default function Home() {
       <AverageRisksSection/>
       <VisionMissionSection/>
       <ConnectSection/>
+      <TestimonialCarousel/>
+      <Recognitions/>
+      <Footer/>
     </header>
   );
 }
