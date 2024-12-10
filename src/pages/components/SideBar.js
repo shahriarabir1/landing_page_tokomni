@@ -1,22 +1,31 @@
 
-import React, { useEffect } from "react";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import React from "react";
+import { useEffect, useRef } from 'react';
+import { useGSAP } from "./cs";  
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+
 gsap.registerPlugin(ScrollTrigger);
 export default function () {
+  const barContentRef = useRef(null); 
+
+  const gsapEffects = useGSAP();
+
   useEffect(() => {
-    gsap.to(".bar-content", {
-      scrollTrigger: {
-        trigger: ".bar-content",
-        start: "top top", // When the bar's top reaches the top of the viewport
-        end: "bottom top", // Optional: Define when it should stop being fixed
-        pin: true, // Fix the element in place
-        pinSpacing: false, // Prevent extra spacing
-      },
-    });
-  }, []);
+    if (barContentRef.current) {
+      gsap.to(barContentRef.current, {
+        scrollTrigger: {
+          trigger: barContentRef.current,
+          start: "top top", // When the bar's top reaches the top of the viewport
+          end: "bottom top", // Optional: Define when it should stop being fixed
+          pin: true, // Fix the element in place
+          pinSpacing: false, // Prevent extra spacing
+        },
+      });
+    }
+  }, [gsapEffects]);
   return (
-    <div className="bar-content hidden sm:flex flex-col items-center py-4 bg-gray-50 w-16">
+    <div ref={barContentRef} className="bar-content hidden sm:flex flex-col items-center py-4 bg-gray-50 w-16">
       <div className="mt-8 space-y-6 text-gray-400">
         <div className="bg-gradient-to-r from-teal-500 via-indigo-500 to-blue-500 w-12 pt-8 rounded-t-lg flex flex-col justify-end items-end ">
           <div className="w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center -mb-6">
