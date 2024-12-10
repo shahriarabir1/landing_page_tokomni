@@ -97,7 +97,7 @@ export default function Home() {
           </div>
         </section>
       </div>
-      <section className="relative flex flex-col items-center justify-center bg-gray-50 h-screen overflow-hidden">
+      <section className="relative flex flex-col items-center justify-center bg-gray-50 md:h-screen overflow-hidden">
         {/* Rain GIF Background */}
         <div className="absolute inset-0 flex justify-center">
           <div className="relative w-1/2 h-full">
@@ -139,7 +139,6 @@ export default function Home() {
       <VisionMissionSection/>
       <ConnectSection/>
       <TestimonialCarousel/>
-      <Recognitions/>
       <Footer/>
     </header>
   );

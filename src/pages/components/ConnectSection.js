@@ -6,7 +6,8 @@ const ConnectSection = () => {
       <section className="bg-gray-50 py-16 w-4/5">
         {/* First Section */}
         <div className="container mx-auto flex flex-col md:flex-row items-center gap-8">
-          <div className="flex flex-col items-center py-4 bg-gray-50 w-16 ">
+           {/* Bar content */}
+           <div className="hidden sm:flex flex-col items-center py-4 bg-gray-50 w-16">
             {/* Highlighted Section */}
             <div className="relative flex flex-col items-center">
               <div className="bg-gradient-to-r from-teal-500 via-indigo-500 to-blue-500 w-12 pt-8 rounded-t-lg flex flex-col justify-end items-end ">
@@ -161,7 +162,7 @@ const ConnectSection = () => {
 
         {/* Second Section */}
         <div className="container mx-auto flex flex-col md:flex-row items-center gap-8 mt-16">
-          <div className="flex flex-col items-center py-4 bg-gray-50 w-16 ">
+        <div className="hidden sm:flex flex-col items-center py-4 bg-gray-50 w-16">
             {/* Highlighted Section */}
             <div className="relative flex flex-col items-center">
               <div className="bg-gradient-to-r from-teal-500 via-indigo-500 to-blue-500 w-12 pt-8 rounded-t-lg flex justify-end items-end flex-col gap-3">
@@ -312,7 +313,7 @@ const ConnectSection = () => {
         </div>
         {/* Third Section */}
         <div className="container mx-auto flex flex-col md:flex-row items-center gap-8 mt-16">
-          <div className="flex flex-col items-center py-4 bg-gray-50 w-16 ">
+        <div className="hidden sm:flex flex-col items-center py-4 bg-gray-50 w-16">
             {/* Highlighted Section */}
             <div className="relative flex flex-col items-center justify-center">
               <div className="bg-gradient-to-r from-teal-500 via-indigo-500 to-blue-500 w-12 pt-8 rounded-t-lg flex justify-end items-center flex-col gap-3">
@@ -461,7 +462,7 @@ Suridata studies your SaaS environment to become your SaaS expert, saving precio
         </div>
         {/* Forth Section */}
         <div className="container mx-auto flex flex-col md:flex-row items-center gap-8 mt-16">
-          <div className="flex flex-col items-center py-4 bg-gray-50 w-16 ">
+        <div className="hidden sm:flex flex-col items-center py-4 bg-gray-50 w-16">
             {/* Highlighted Section */}
             <div className="relative flex flex-col items-center justify-center">
               <div className="bg-gradient-to-r from-teal-500 via-indigo-500 to-blue-500 w-12 pt-8 rounded-t-lg flex justify-end items-center flex-col gap-3">
@@ -608,7 +609,7 @@ Suridata studies your SaaS environment to become your SaaS expert, saving precio
         </div>
         {/* Fifth Section */}
         <div className="container mx-auto flex flex-col md:flex-row items-center gap-8 mt-16">
-          <div className="flex flex-col items-center py-4 bg-gray-50 w-16 ">
+        <div className="hidden sm:flex flex-col items-center py-4 bg-gray-50 w-16">
             {/* Highlighted Section */}
             <div className="relative flex flex-col items-center justify-center">
               <div className="bg-gradient-to-r from-teal-500 via-indigo-500 to-blue-500 w-12 pt-8 rounded-t-lg flex justify-end items-center flex-col gap-3">
