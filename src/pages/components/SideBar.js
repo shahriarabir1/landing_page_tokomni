@@ -170,12 +170,12 @@ export default function () {
     };
   }, [gsapEffects]);
   return (
-    <div ref={barContentRef} className="bar-content hidden sm:flex flex-col items-center py-4 bg-gray-50 w-16">
-      <div className="mt-8 space-y-6 text-gray-400">
+    <div ref={barContentRef} className="bar-content hidden sm:flex flex-col items-center py-4 bg-gray-50 w-16 mr-10">
+      <div className="mt-8 space-y-6 text-gray-400 bg-gradient-to-r from-teal-500 via-indigo-500 to-blue-500 rounded-md">
         {icons.map((icon, index) => (
           <div 
             key={index} 
-            className={`w-10 h-10 flex items-center justify-center ${
+            className={`w-16 h-10 flex items-center justify-center  ${
               index === activeIconIndex 
                 ? 'bg-gradient-to-r from-teal-500 via-indigo-500 to-blue-500 rounded-t-lg' 
                 : ''

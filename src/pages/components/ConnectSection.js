@@ -6,7 +6,7 @@ import React from "react";
 const ConnectSection = () => {
  
   return (
-    <div className="flex justify-center w-f">
+    <div className="flex justify-center w-f gap-20">
       {/* Bar content */}
       <SideBar/>
       <section className="bg-gray-50 py-16 w-4/5">
