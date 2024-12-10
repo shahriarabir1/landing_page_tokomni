@@ -139,6 +139,7 @@ export default function Home() {
       <VisionMissionSection/>
       <ConnectSection/>
       <TestimonialCarousel/>
+    
       <Footer/>
     </header>
   );
