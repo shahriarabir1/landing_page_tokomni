@@ -11,7 +11,7 @@ const ConnectSection = () => {
       <SideBar/>
       <section className="bg-gray-50 py-16 w-4/5">
         {/* First Section */}
-        <div className="container mx-auto flex flex-col md:flex-row items-center gap-8">
+        <div id="section1" className="container mx-auto flex flex-col md:flex-row items-center gap-8">
           {/* Left Content */}
           <div className="flex flex-col md:w-1/2">
             <div className="flex flex-col items-start gap-4">
@@ -43,7 +43,7 @@ const ConnectSection = () => {
         </div>
 
         {/* Second Section */}
-        <div className="container mx-auto flex flex-col md:flex-row items-center gap-8 mt-16">
+        <div id="section2" className="container mx-auto flex flex-col md:flex-row items-center gap-8 mt-16">
           {/* Left Content */}
           <div className="flex flex-col md:w-1/2">
             <div className="flex flex-col space-y-4">
@@ -71,7 +71,7 @@ const ConnectSection = () => {
           </div>
         </div>
         {/* Third Section */}
-        <div className="container mx-auto flex flex-col md:flex-row items-center gap-8 mt-16">
+        <div id="section3" className="container mx-auto flex flex-col md:flex-row items-center gap-8 mt-16">
           {/* Left Content */}
           <div className="flex flex-col md:w-1/2">
             <div className="flex flex-col space-y-4">
@@ -103,7 +103,7 @@ const ConnectSection = () => {
           </div>
         </div>
         {/* Forth Section */}
-        <div className="container mx-auto flex flex-col md:flex-row items-center gap-8 mt-16">
+        <div id="section4" className="container mx-auto flex flex-col md:flex-row items-center gap-8 mt-16">
           {/* Left Content */}
           <div className="flex flex-col md:w-1/2">
             <div className="flex flex-col space-y-4">
@@ -132,7 +132,7 @@ const ConnectSection = () => {
           </div>
         </div>
         {/* Fifth Section */}
-        <div className="container mx-auto flex flex-col md:flex-row items-center gap-8 mt-16">
+        <div id="section5" className="container mx-auto flex flex-col md:flex-row items-center gap-8 mt-16">
           {/* Left Content */}
           <div className="flex flex-col md:w-1/2">
             <div className="flex flex-col space-y-4">
