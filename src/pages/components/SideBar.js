@@ -175,7 +175,7 @@ export default function () {
         {icons.map((icon, index) => (
           <div 
             key={index} 
-            className={`w-16 h-10 flex items-center justify-center  ${
+            className={`w-16 h-12 flex items-center justify-center  ${
               index === activeIconIndex 
                 ? 'bg-gradient-to-r from-teal-500 via-indigo-500 to-blue-500 rounded-t-lg' 
                 : ''

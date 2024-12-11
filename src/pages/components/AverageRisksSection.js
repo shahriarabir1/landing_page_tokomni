@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 
 const AverageRisksSection = () => {
   const data = [
-    { value: 23, description: "Critical misconfigurations" },
-    { value: 1400, description: "Sensitive files shared via anonymous links" },
-    { value: 47, description: "3rd party apps with a high risk" },
+    { value: 23, description: "שגיאות קריטיות בתצורה" },
+    { value: 1400, description: "קבצים רגישים שחולקו באמצעות קישורים אנונימיים" },
+    { value: 47, description: "אפליקציות צד שלישי עם סיכון גבוה" },
   ];
 
   const [currentValues, setCurrentValues] = useState(data.map(() => 0));
@@ -28,14 +28,14 @@ const AverageRisksSection = () => {
   }, [data]);
 
   return (
-    <section className="bg-gray-50 py-16">
+    <section className="bg-gray-50 py-16 rtl">
       <div className="container mx-auto text-center w-2/3">
-        <h2 className="text-2xl md:text-4xl text-gray-800">
-          Average Risks Per Organization
+        <h2 className="text-2xl md:text-4xl text-gray-800 text-right">
+          ממוצע סיכונים לכל ארגון
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
           {data.map((item, index) => (
-            <div key={index} className="flex flex-col items-center">
+            <div key={index} className="flex flex-col items-center text-right">
               <p className="text-6xl bg-gradient-to-r from-orange-500 via-red-500 to-yellow-500 bg-clip-text text-transparent">
                 {currentValues[index]}
               </p>
