@@ -147,7 +147,7 @@ export default function () {
         scrollTrigger: {
           trigger: barContentRef.current,
           start: "top-=100 top", 
-          end: "bottom top", 
+          end: "bottom+=1334 top", 
           pin: true,
           pinSpacing: false,
         },
