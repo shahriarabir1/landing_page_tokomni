@@ -61,11 +61,9 @@ export default function SecurityThreats() {
         {/* Right Graph Section */}
         <div className="lg:w-1/2">
           <h1 className="text-2xl text-end lg:text-3xl leading-snug mb-4">
-            <span className="text-gray-900">Dealing with security threats is a challenge that every business faces.</span>
-            <span className="text-gray-400">You can’t address them all, and you don’t have to, because they are
-            not all equal in their impact.</span>
-            <span className="text-gray-400"> While attacks can pose a real danger
-            to your business, sometimes, so can the countermeasures.</span>
+            <span className="text-gray-900">مواجهة التهديدات الأمنية هي تحدي يواجهه كل عمل تجاري.</span>
+            <span className="text-gray-400">لا يمكنك التعامل مع جميعهم، ولا يجب عليك ذلك، لأنهم ليسوا جميعاً متساوين في تأثيرهم.</span>
+            <span className="text-gray-400"> بينما يمكن أن تشكل الهجمات خطرًا حقيقيًا على عملك، أحيانًا يمكن أن تشكل التدابير المضادة أيضًا خطرًا.</span>
           </h1>
         </div>
       </div>

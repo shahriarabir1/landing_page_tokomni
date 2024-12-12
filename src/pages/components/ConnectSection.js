@@ -15,17 +15,10 @@ const ConnectSection = () => {
             <div className="flex flex-col items-end gap-4">
               <div className="flex flex-col space-y-4">
                 <h2 className="text-3xl font-bold text-gray-800 text-right">
-                  Connect
+                اتصل 
                 </h2>
                 <p className="text-gray-600 text-right" dir="rtl">
-                  באמצעות סורידטה, חיבור הפלטפורמות שלך הופך לפשוט ונגיש.
-                  סורידטה מזהה באופן אוטומטי את פלטפורמות ה-SaaS שלך, מחברת אותן
-                  במהירות, ומספקת פתרונות אבטחה מותאמים אישית שמאפשרים התחלה
-                  חלקה ומהירה. תהליך הזיהוי מבטיח שהממשקים, השירותים והתצורות
-                  שלך ימשיכו לפעול בצורה הרמונית, תוך מיפוי מקיף של כל התשתית
-                  הקיימת. עם סורידטה, ניתן לבחון גם את האיומים הפוטנציאליים על
-                  הפעילות שלך ולקבל תובנות על נקודות תורפה אפשריות שעלולות
-                  להשפיע על רמת האבטחה של המערכת.
+                بمجرد الاتصال، تكون المهمة الأولى لـ Suridata هي الاكتشاف؛ حيث تحدد تلقائيًا منصات SaaS التي تشكل جزءًا من بيئتك والتي قد تؤثر على وضع الأمان لديك. في غضون دقائق، يتصل Suridata بتطبيقات SaaS الخاصة بك ويبدأ العمل، باستخدام السياسات الجاهزة لاكتشاف الثغرات المخفية تحت عمليات SaaS الخاصة بك. يساعدك هذا التهيئة السلسة في رسم بيئة SaaS ووضع الأمان بسهولة
                 </p>
               </div>
             </div>
@@ -51,14 +44,10 @@ const ConnectSection = () => {
           <div className="flex flex-col md:w-1/2">
             <div className="flex flex-col space-y-4">
               <h2 className="text-3xl font-bold text-gray-800 text-right">
-                Identify Security Risks
+              تحديد مخاطر الأمان
               </h2>
               <p className="text-gray-600 text-right" dir="rtl">
-                Security risks and threats can be buried deep, obscured by
-                misconfigurations, access management rules, version changes, and
-                even outdated privileges. Suridata digs through the layers to
-                map out the interconnections, interdependencies, overlaps and
-                oversights to identify where threats can be lying in wait.
+              يمكن أن تكون مخاطر وتهديدات الأمان مدفونة بعمق، مخفية بواسطة التهيئات الخاطئة، وقواعد إدارة الوصول، والتغييرات في الإصدارات، وحتى الامتيازات القديمة. تقوم Suridata بالتنقيب عبر الطبقات لرسم خرائط الترابطات والاعتمادات المتبادلة والتداخلات والإغفالات لتحديد الأماكن التي قد تكمن فيها التهديدات في الانتظار
               </p>
             </div>
           </div>
@@ -83,18 +72,10 @@ const ConnectSection = () => {
           <div className="flex flex-col md:w-1/2">
             <div className="flex flex-col space-y-4">
               <h2 className="text-3xl font-bold text-gray-800 text-right">
-                Prioritize Risks​
+              أعطِ الأولوية للمخاطر
               </h2>
               <p className="text-gray-600 text-right" dir="rtl">
-                Once all SaaS security risks have been identified, the next
-                challenge is deciding where the efforts should be focused. You
-                should evaluate which risks have more impact on business
-                continuity vs. those that are easier to exploit. Suridata
-                studies your SaaS environment to become your SaaS expert, saving
-                precious time and effort. The result is a comprehensive,
-                prioritized list of actions that guides you to focus on the most
-                critical issues that threaten the foundations of your SaaS
-                environment. ​
+              بمجرد تحديد جميع مخاطر أمان SaaS، فإن التحدي التالي هو تحديد أين يجب أن تركز الجهود. يجب عليك تقييم المخاطر التي تؤثر بشكل أكبر على استمرارية الأعمال مقارنة بتلك التي يسهل استغلالها. تقوم Suridata بدراسة بيئة SaaS الخاصة بك لتصبح خبيرك في هذا المجال، مما يوفر وقتك وجهدك الثمين. والنتيجة هي قائمة شاملة ومرتبة بالأولويات من الإجراءات التي توجهك للتركيز على أكثر القضايا الحاسمة التي تهدد أساسيات بيئة SaaS الخاصة بك.
               </p>
             </div>
           </div>
@@ -119,14 +100,10 @@ const ConnectSection = () => {
           <div className="flex flex-col md:w-1/2">
             <div className="flex flex-col space-y-4">
               <h2 className="text-3xl font-bold text-gray-800 text-right">
-                Remediate Threats​
+              معالجة التهديدات
               </h2>
               <p className="text-gray-600 text-right" dir="rtl">
-                Addressing risks and vulnerabilities effectively requires a
-                focused approach. Suridata provides actionable recommendations
-                and step-by-step guidance to help you resolve issues with
-                precision. This helps secure your SaaS applications and
-                minimizes disruptions.​
+              "يتطلب معالجة المخاطر والثغرات بشكل فعال اتباع نهج مركز. تقدم Suridata توصيات قابلة للتنفيذ وإرشادات خطوة بخطوة لمساعدتك في حل المشكلات بدقة. يساعد ذلك في تأمين تطبيقات SaaS الخاصة بك وتقليل التوقفات
               </p>
             </div>
           </div>
@@ -151,14 +128,10 @@ const ConnectSection = () => {
           <div className="flex flex-col md:w-1/2">
             <div className="flex flex-col space-y-4">
               <h2 className="text-3xl font-bold text-gray-800 text-right">
-                Monitor Continuously​
+              مراقبة باستمرار
               </h2>
               <p className="text-gray-600 text-right" dir="rtl">
-                Security is not a one-time task. With Suridata, you gain access
-                to continuous monitoring capabilities, ensuring that new threats
-                are detected promptly and your SaaS environment remains secure.
-                This proactive approach reduces risk and helps maintain
-                compliance.
+              "الأمان ليس مهمة لمرة واحدة. مع Suridata، تحصل على إمكانيات المراقبة المستمرة، مما يضمن اكتشاف التهديدات الجديدة بشكل سريع ويبقي بيئة الـSaaS الخاصة بك آمنة. هذه المقاربة الاستباقية تقلل من المخاطر وتساعد في الحفاظ على الامتثال."
               </p>
             </div>
           </div>

@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 
 const AverageRisksSection = () => {
   const data = [
-    { value: 23, description: "שגיאות קריטיות בתצורה" },
-    { value: 1400, description: "קבצים רגישים שחולקו באמצעות קישורים אנונימיים" },
-    { value: 47, description: "אפליקציות צד שלישי עם סיכון גבוה" },
+    { value: 23, description: "الإعدادات الخاطئة الحرجة" },
+    { value: 1400, description: "الملفات الحساسة المشتركة عبر الروابط المجهولة" },
+    { value: 47, description: "تطبيقات الطرف الثالث ذات المخاطر العالية" },
   ];
 
   const [currentValues, setCurrentValues] = useState(data.map(() => 0));
@@ -31,7 +31,7 @@ const AverageRisksSection = () => {
     <section className="bg-gray-50 py-16 rtl">
       <div className="container mx-auto text-center w-8/12">
         <h2 className="text-2xl md:text-4xl text-gray-800">
-          ממוצע סיכונים לכל ארגון
+        متوسط المخاطر لكل منظمة
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
           {data.map((item, index) => (
