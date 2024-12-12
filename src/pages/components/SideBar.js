@@ -170,7 +170,7 @@ export default function () {
     };
   }, [gsapEffects]);
   return (
-    <div ref={barContentRef} className="bar-content hidden sm:flex flex-col items-center py-4 bg-gray-50 w-16 mr-10">
+    <div ref={barContentRef} className=" left-36 absolute bar-content min-h-screen overflow-hidden hidden sm:flex flex-col items-center py-4  w-16 mr-10 ">
       <div className="mt-8 space-y-6 text-gray-400 bg-gradient-to-r from-teal-500 via-indigo-500 to-blue-500 rounded-md">
         {icons.map((icon, index) => (
           <div 

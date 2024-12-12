@@ -5,7 +5,7 @@ const VisionMissionSection = () => {
 
   return (
     <div className="w-full flex justify-center rtl">
-      <section className="py-16 px-4 w-4/5">
+      <section className="py-16 px-4 w-8/12">
         <div className="container mx-auto flex items-center justify-between flex-row-reverse">
           {/* Text Content (Right Side in RTL) */}
           <div className="w-3/6 text-right">

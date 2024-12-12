@@ -29,8 +29,8 @@ const AverageRisksSection = () => {
 
   return (
     <section className="bg-gray-50 py-16 rtl">
-      <div className="container mx-auto text-center w-2/3">
-        <h2 className="text-2xl md:text-4xl text-gray-800 text-right">
+      <div className="container mx-auto text-center w-8/12">
+        <h2 className="text-2xl md:text-4xl text-gray-800">
           ממוצע סיכונים לכל ארגון
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
