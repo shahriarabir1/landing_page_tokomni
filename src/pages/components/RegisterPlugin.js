@@ -4,44 +4,7 @@ import { useEffect } from "react";
 
 gsap.registerPlugin(ScrollTrigger);
 
-export default function SecurityThreats() {
-  useEffect(() => {
-    const textSpans = document.querySelectorAll('h1 span');
-    const graphImage = document.querySelector('.graph-img');
-    
-    let tl = gsap.timeline({
-      scrollTrigger: {
-        trigger: '.text-section',
-        start: 'top center',
-        end: 'bottom center',
-        scrub: true,
-        markers: false,
-        onUpdate: self => {
-          const progress = self.progress;
-          
-          // First span fade in
-          if (progress >= 0.3) {
-            gsap.to(textSpans[0], { color: "#4a5568" });
-          }
-
-          // Second span fade in
-          if (progress >= 0.6) {
-            gsap.to(textSpans[1], { color: "#4a5568" });
-          }
-
-          // Third span fade in and change graph image
-          if (progress >= 0.9) {
-            gsap.to(textSpans[2], { color: "#4a5568" });
-            gsap.to(graphImage, { attr: { src: "https://www.suridata.ai/wp-content/themes/suridata-theme/assets/images/home/graph-2.svg" } });
-          }
-        },
-      },
-    });
-
-    return () => {
-      ScrollTrigger.kill();
-    };
-  }, []);
+export default function Business() {
 
   return (
     <div className="w-full flex justify-center h-screen">
@@ -51,7 +14,7 @@ export default function SecurityThreats() {
           {/* Graph SVG */}
           <div className="relative w-64 h-64 lg:w-full lg:h-full">
             <img
-              src="https://www.suridata.ai/wp-content/themes/suridata-theme/assets/images/home/graph-1.svg"
+              src="https://www.suridata.ai/wp-content/themes/suridata-theme/assets/images/home/graph-4.svg"
               alt="Risk Level Graph"
               className="w-full h-full object-contain graph-img"
             />

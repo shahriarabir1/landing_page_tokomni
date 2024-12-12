@@ -7,6 +7,7 @@ import TestimonialCarousel from "./components/TestimonialCarousel";
 import Recognitions from "./components/Recognitions";
 import Footer from "./components/Footer";
 import SecurityThreats from "./components/SecurityThreats";
+import Business from "./components/RegisterPlugin";
 export default function Home() {
   return (
     <header className="bg-gray-50">
@@ -140,6 +141,7 @@ export default function Home() {
       <VisionMissionSection/>
       <ConnectSection/>
       <SecurityThreats/>
+      <Business/>
       <TestimonialCarousel/>
     
       <Footer/>
